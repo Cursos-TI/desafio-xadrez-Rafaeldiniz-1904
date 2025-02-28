@@ -8,12 +8,20 @@ int main() {
 
     // Criação das variaveis.
 
-    int bispo = 5;
-    int torre = 5;
-    int rainha = 8;
+    int bispo = 1;
+    int torre = 1;
+    int rainha = 1;
 
-    // Movimentação da Torre
+    // Movimentação da Torre.
+
+    while (torre <= 5)
+    {
+        printf("Move Direita %d casa\n", torre);
+        torre++;
+    }
+
     
+
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
 
