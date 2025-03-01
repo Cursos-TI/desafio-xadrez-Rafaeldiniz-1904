@@ -17,7 +17,7 @@ int main() {
 
     while (torre <= 5)
     {
-        printf("Mova para Direita %d casa\n", torre);
+        printf("Mova para Direita\n");
         torre++;
     }
     printf("\n");
@@ -26,7 +26,7 @@ int main() {
 
     do 
     {
-        printf("Mova para a Esquerda %d casas\n", rainha);
+        printf("Mova para a Esquerda\n");
         rainha++;
 
     } while (rainha <= 8);
